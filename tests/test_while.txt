@@ -1,0 +1,12 @@
+func main() @ int {
+    var a: int = 0;
+    var b: int = 0;
+
+    while a < 5 {
+        b = b + 10;
+        a = a + 1;
+    }
+
+    ret b;
+
+}

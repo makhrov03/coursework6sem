@@ -1,0 +1,12 @@
+func literal() @ int {
+    ret 69;
+}
+
+func variable() @ int {
+    var a: int = 228;
+    ret a;
+}
+
+func main() @ int {
+    ret variable();
+}

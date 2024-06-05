@@ -1,0 +1,15 @@
+func add(a: int, b: int) @ int {
+    ret a + b;
+}
+
+func sub(a: int, b: int) @ int {
+    ret a - b;
+}
+
+func main() @ int {
+    var a: int = 50;
+    var a: int = 100;
+    var a: int = 4;
+    var a: int = 2;
+    ret a;
+}

@@ -1,0 +1,160 @@
+{
+    "type": "Program",
+    "statements": [
+        {
+            "FunctionStatement": {
+                "type": "FunctionStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "add"
+                },
+                "return_type": "int",
+                "parameters": [
+                    {
+                        "type": "FunctionParameter",
+                        "name": "a",
+                        "value_type": "int"
+                    },
+                    {
+                        "type": "FunctionParameter",
+                        "name": "b",
+                        "value_type": "int"
+                    }
+                ],
+                "body": {
+                    "type": "BlockStatement",
+                    "statements": [
+                        {
+                            "type": "ReturnStatement",
+                            "return_value": {
+                                "type": "InfixExpression",
+                                "left_node": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "a"
+                                },
+                                "operator": "+",
+                                "right_node": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "b"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "FunctionStatement": {
+                "type": "FunctionStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "sub"
+                },
+                "return_type": "int",
+                "parameters": [
+                    {
+                        "type": "FunctionParameter",
+                        "name": "a",
+                        "value_type": "int"
+                    },
+                    {
+                        "type": "FunctionParameter",
+                        "name": "b",
+                        "value_type": "int"
+                    }
+                ],
+                "body": {
+                    "type": "BlockStatement",
+                    "statements": [
+                        {
+                            "type": "ReturnStatement",
+                            "return_value": {
+                                "type": "InfixExpression",
+                                "left_node": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "a"
+                                },
+                                "operator": "-",
+                                "right_node": {
+                                    "type": "IdentifierLiteral",
+                                    "value": "b"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "FunctionStatement": {
+                "type": "FunctionStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "main"
+                },
+                "return_type": "int",
+                "parameters": [],
+                "body": {
+                    "type": "BlockStatement",
+                    "statements": [
+                        {
+                            "type": "VarStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "a"
+                            },
+                            "value": {
+                                "type": "IntegerLiteral",
+                                "value": 50
+                            },
+                            "value_type": "int"
+                        },
+                        {
+                            "type": "VarStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "a"
+                            },
+                            "value": {
+                                "type": "IntegerLiteral",
+                                "value": 100
+                            },
+                            "value_type": "int"
+                        },
+                        {
+                            "type": "VarStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "a"
+                            },
+                            "value": {
+                                "type": "IntegerLiteral",
+                                "value": 4
+                            },
+                            "value_type": "int"
+                        },
+                        {
+                            "type": "VarStatement",
+                            "name": {
+                                "type": "IdentifierLiteral",
+                                "value": "a"
+                            },
+                            "value": {
+                                "type": "IntegerLiteral",
+                                "value": 2
+                            },
+                            "value_type": "int"
+                        },
+                        {
+                            "type": "ReturnStatement",
+                            "return_value": {
+                                "type": "IdentifierLiteral",
+                                "value": "a"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

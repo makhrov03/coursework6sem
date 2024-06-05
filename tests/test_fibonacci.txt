@@ -1,0 +1,15 @@
+func fib(n: int) @ int {
+    if n == 1 {
+        ret 0;
+    }
+
+    if n == 2 {
+        ret 1;
+    }
+
+    ret fib(n - 1) + fib(n - 2);
+}
+
+func main() @ int {
+    ret fib(64);
+}

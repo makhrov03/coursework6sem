@@ -1,0 +1,11 @@
+func main() @ int {
+    var a: int = 50;
+
+    if a < 10 {
+        a = 1;
+    } else {
+        a = 0;
+    }
+
+    ret a;
+}

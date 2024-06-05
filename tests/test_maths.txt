@@ -1,0 +1,19 @@
+func add(a: float, b: float) @ float {
+    ret a + b;
+}
+
+func sub(a: float, b: float) @ float {
+    ret a - b;
+}
+
+func mul(a: float, b: float) @ float {
+    ret a * b;
+}
+
+func div(a: float, b: float) @ float {
+    ret a / b;
+}
+
+func main() @ float {
+    ret div(50.0, 2.567);
+}
